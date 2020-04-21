@@ -1,0 +1,483 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.atmel.sidekeydemo.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/toparealayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+        
+        <EditText
+                android:id="@+id/editTextHand"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/click_notification"
+                android:layout_marginLeft="200dp"
+                android:ems="10"
+                android:enabled="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Zoom in/out"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+            
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/click_notification"
+                android:layout_marginLeft="100dp"
+                android:ems="10"
+                android:enabled="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="switch"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/middlearealayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/textlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewText"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/background"
+                android:gravity="center"
+                android:text="Atmel"
+                android:textColor="#ffffff"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomarealayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/flag1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#00ff00"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/flag2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#00ff00"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/flag3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#00ff00"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/flag4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#00ff00"
+                android:enabled="false" />
+            
+            <Button
+                android:id="@+id/flag5"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag6"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag7"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag8"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag9"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag10"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag11"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag12"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag13"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag14"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag15"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag16"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag17"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag18"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag19"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag20"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag21"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag22"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag23"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag24"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag25"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag26"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag27"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag28"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag29"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag30"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag31"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            <Button
+                android:id="@+id/flag32"
+                style="?android:attr/buttonStyleSmall"
+                
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:enabled="false"
+                android:background="#00ff00"
+                 />
+            
+            <EditText
+                android:id="@+id/editTextSlide"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textMultiLine"
+                android:minLines="2"
+                android:gravity="top"
+                android:text="Chns_Delta:"
+                android:textSize="10sp" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+        
+            <Button
+            android:id="@+id/button3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/startbutton_style"
+            android:text="Start Demo"
+            android:textColor="#ffffff" />
+            
+            <Button
+ 			    android:id="@+id/button2"
+ 			    android:layout_width="200dp"
+ 			    android:layout_height="wrap_content"
+ 			    android:layout_marginLeft="30dp"
+ 			    android:background="@drawable/settingbutton_style"
+ 			    android:text="Settings"
+ 			    android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/settingbutton_style"
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="About"
+                android:textColor="#ffffff" />
+            
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

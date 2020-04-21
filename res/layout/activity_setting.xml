@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+        
+        <EditText
+            android:id="@+id/editTextParaTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:background="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="SideKey Parameters"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        
+        <EditText
+            android:id="@+id/editTextPara1Logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:enabled="false"
+            android:text="Slide Recognition Threshold:"
+            android:textSize="15sp" />
+        
+        <EditText
+            android:id="@+id/editTextPara1Set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffff" />
+        
+        <EditText
+            android:id="@+id/editTextPara2Logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:enabled="false"
+            android:text="Click Recognition Threshold:"
+            android:textSize="15sp" />
+        
+        <EditText
+            android:id="@+id/editTextPara2Set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffff" />
+        
+        <EditText
+            android:id="@+id/editTextPara3Logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:enabled="false"
+            android:text="Click PersistenceL:"
+            android:textSize="15sp" />
+        
+        <EditText
+            android:id="@+id/editTextPara3Set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffff" />
+        
+        <EditText
+            android:id="@+id/editTextPara4Logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:enabled="false"
+            android:text="Click PersistenceH:"
+            android:textSize="15sp" />
+        
+        <EditText
+            android:id="@+id/editTextPara4Set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffff" />
+        
+
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonWriteSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/writebutton_style"
+        android:text="Write"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/buttonDebug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Debug" />
+
+</LinearLayout>
